@@ -1,4 +1,4 @@
-# bun-bug
+# Bun (v1.0.8+) Docker Image Bug
 
 This repo is a minimal reproducible example of a bug in bun.
 
