@@ -1,7 +1,11 @@
 {
   "name": "bun-bug",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "build": "docker build -t 4lch4/bun-docker-bug .",
+    "start": "docker run --rm --name bun-bug 4lch4/bun-docker-bug"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
