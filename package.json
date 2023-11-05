@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "docker build -t 4lch4/bun-docker-bug .",
+    "prestart": "bun run build",
     "start": "docker run --rm --name bun-bug 4lch4/bun-docker-bug"
   },
   "devDependencies": {
